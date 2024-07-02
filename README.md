@@ -1,8 +1,5 @@
-# React + Vite
+This is a React/JavaScript project for a journal application.
+This app has CRUD, user data may be stored locally, state management is implemented, and react-router-dom is used throughout the application.
+Tailwind CSS is used in the design.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This App can be runned by: 'npm run dev'
