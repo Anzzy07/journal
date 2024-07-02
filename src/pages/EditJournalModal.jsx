@@ -12,8 +12,8 @@ const EditJournalModal = ({ journal, onClose, onUpdate }) => {
   };
 
   return (
-    <div className="fixed inset-0 bg-gray-800 bg-opacity-75 flex items-center justify-center z-50">
-      <div className="bg-white p-6 rounded-lg shadow-lg z-50">
+    <div className="fixed inset-0 bg-gray-800 bg-opacity-75 flex items-center justify-center z-50 p-4">
+      <div className="bg-white p-6 rounded-lg shadow-lg z-50 w-full max-w-md mx-4">
         <h2 className="text-2xl font-bold mb-4">Edit Journal</h2>
         <div className="mb-4">
           <DatePicker

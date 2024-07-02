@@ -10,10 +10,10 @@ const JournalCard = ({ journal, deleteJournal, editJournal }) => {
   };
 
   return (
-    <div className="bg-white p-6 rounded-lg shadow-md relative flex flex-col md:flex-row font-sans">
+    <div className="bg-white p-6 rounded-lg shadow-md relative flex flex-col md:flex-row font-sans overflow-hidden">
       <div className="flex-1">
         <h2 className="text-xl font-semibold mb-2">{journal.topic}</h2>
-        <p className={`text-gray-700 mb-4 ${isExpanded ? "" : "truncate"}`}>
+        <p className={`text-gray-700 mb-4 ${isExpanded ? "" : "line-clamp-3"}`}>
           {journal.desc}
         </p>
         {journal.desc.length > 100 && (
